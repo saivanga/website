@@ -1,0 +1,103 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  border-bottom: 2px solid hotpink;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  display: flex;
+  height: 100vh;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid hotpink;
+}
+
+table,
+td,
+tr,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+a {
+  color: navy;
+}
+
+#logo a {
+  text-decoration: none;
+}
+
+a {
+  border-bottom: 1px solid #5c0099;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+#right {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid hotpink;
+  padding: 20px;
+}
+
+/* Logo and Links */
+
+#logo {
+  border-bottom: 1px solid green;
+  padding: 20px;
+  user-select: none;
+}
+
+#links a {
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid green;
+  padding: 5px 15px;
+  /* transition: all 0.5s linear; */
+}
+#links a:hover,
+#links a:focus {
+  background-color: yellow;
+  color: #5c0099;
+  letter-spacing: 0.15rem;
+}
+
+#logo {
+  background-image: url(../patterns/pixel-heart.png);
+}
+
+img {
+  border: 2px solid blue;
+}
+
+#switch-theme {
+  margin: 40px;
+  padding: 3px;
+  background: yellow;
+  color: #5c0099;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+#switch-theme:hover {
+  background: #5c0099;
+  color: yellow;
+  cursor: pointer;
+}
